@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "1028738832506",
+    "firebase_url": "https://notify-fc34d.firebaseio.com",
+    "project_id": "notify-fc34d",
+    "storage_bucket": "notify-fc34d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1028738832506:android:4ef9113073f2310c",
+        "android_client_info": {
+          "package_name": "example.com.bitsnoti"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1028738832506-mpp9774hqk162hi947k9sgodevtr4l8t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCR2WwYAzND172Fl3EUJVcuTSlJqJ-_AhA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

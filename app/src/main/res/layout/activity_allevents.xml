@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:background="#1D4851"
+
+    android:textColor="@color/common_google_signin_btn_text_dark_default"
+    tools:context=".Allevents">
+
+    <ListView
+        android:id="@+id/listView"
+        android:layout_width="350dp"
+        android:layout_height="500dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="18dp"
+        android:addStatesFromChildren="false"
+        android:animationCache="true"
+        android:paddingTop="10dp"
+        android:scrollbarSize="100dip"
+        android:scrollbarStyle="insideOverlay"
+        android:textColor="#ffffff" />
+
+    <Button
+        android:id="@+id/btnclublogin"
+        android:layout_width="120dp"
+        android:layout_height="40dp"
+        android:alpha="0.75"
+        android:background="@drawable/login1"
+        android:text="LOGIN AS CLUB"
+        android:textStyle="bold"
+        android:textColor="@color/common_google_signin_btn_text_dark_default"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+
+</RelativeLayout>

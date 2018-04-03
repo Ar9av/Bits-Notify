@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#1D4351"
+    tools:context="example.com.bitsnoti.NewEvent">
+
+    <EditText
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="14dp"
+        android:ems="10"
+        android:hint="Title"
+        android:inputType="text"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:visibility="visible"
+        android:background="@drawable/edittextstyle"/>
+
+    <EditText
+        android:id="@+id/date"
+        android:layout_width="120dp"
+        android:layout_height="30dp"
+        android:paddingLeft="10dp"
+        android:ems="10"
+        android:hint="yyyy-mm-dd"
+        android:inputType="date"
+        android:layout_above="@+id/eventimage"
+        android:layout_toStartOf="@+id/time"
+        android:layout_marginEnd="57dp"
+        android:visibility="visible"
+        android:background="@drawable/edittextstyle"/>
+
+    <EditText
+        android:id="@+id/time"
+        android:layout_width="120dp"
+        android:layout_height="30dp"
+        android:paddingLeft="10dp"
+
+        android:visibility="visible"
+        android:background="@drawable/edittextstyle"
+        android:ems="10"
+        android:hint="hh:mm"
+        android:inputType="time"
+        android:layout_marginEnd="34dp"
+        android:layout_above="@+id/eventimage"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:id="@+id/btncreateevent"
+        android:layout_width="120dp"
+        android:layout_height="40dp"
+        android:background="@drawable/login1"
+        android:text="Create Event"
+        android:textColor="@color/common_google_signin_btn_text_dark_default"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/btnchoosefoto"
+        android:layout_marginBottom="62dp" />
+
+    <EditText
+        android:id="@+id/description"
+        android:layout_width="wrap_content"
+        android:layout_height="80dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+
+        android:visibility="visible"
+        android:background="@drawable/edittextstyle"
+        android:ems="10"
+        android:hint="Description"
+        android:inputType="textMultiLine"
+        android:layout_above="@+id/date"
+        android:layout_alignStart="@+id/title"
+        android:layout_marginBottom="42dp" />
+
+    <Button
+        android:id="@+id/btnchoosefoto"
+        android:layout_width="120dp"
+        android:layout_height="40dp"
+        android:background="@drawable/login1"
+        android:text="Choose image"
+        android:textColor="@color/common_google_signin_btn_text_dark_default"
+        android:layout_above="@+id/btncreateevent"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="33dp" />
+
+    <ImageView
+        android:id="@+id/eventimage"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/logobits"
+        android:layout_marginBottom="17dp"
+        android:layout_above="@+id/btnchoosefoto"
+        android:layout_centerHorizontal="true" />
+
+
+</RelativeLayout>
